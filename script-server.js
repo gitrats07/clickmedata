@@ -15,7 +15,7 @@ function clearThing() {
 //function clearThing is required in every case of function showThing
 
 function showThing() {
-	num = getRandomInt(10);
+	num = getRandomInt(100);
 	console.log(num);
 	switch (num) {
 		case 0:
