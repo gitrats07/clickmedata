@@ -25,13 +25,13 @@ function showThing() {
 			
 		case 1:
 			clearThing();
-			document.getElementById("imgid").src = datadir + "data/clickme/1/1.png"
+			document.getElementById("imgid").src = datadir + "data/1.png"
 			document.getElementById("pid").innerHTML = "Mark Zuckerberg's Image"
 			break;
 			
 		case 2:
 			clearThing();
-			document.getElementById("imgid").src = datadir + "data/clickme/2/2.jpg"
+			document.getElementById("imgid").src = datadir + "data/2.jpg"
 			break;
 			
 		default:
