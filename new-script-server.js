@@ -2,6 +2,7 @@ function getRandomInt(max) {
   return Math.floor(Math.random() * max);
 }
 
+//change random range from 10000 to 1000
 //you know what the function getRandomInt does
 
 var datadir = "https://raw.githubusercontent.com/gitrats07/clickmedata/main/"
@@ -15,7 +16,7 @@ function clearThing() {
 //function clearThing is required in every case of function showThing
 
 function showThing() {
-	num = getRandomInt(10000);
+	num = getRandomInt(1000);
 	console.log(num);
 	switch (num) {
 		case 0:
